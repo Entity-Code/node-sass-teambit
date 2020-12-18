@@ -27,7 +27,7 @@ header{
     .center{
         width: 100%;
         height: 500px;
-        @include flex;
+        @include flex; 
         
         .center-left{
             width: 50%;
