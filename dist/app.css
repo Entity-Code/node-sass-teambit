@@ -1,5 +1,5 @@
 header {
-  width: 95%;
+  width: 90%;
   margin: 0 auto;
   background-color: #ffffff;
 }
@@ -8,7 +8,6 @@ header nav {
   width: 100%;
   height: 75px;
   border-bottom: 1px solid #bdb5af;
-  margin-top: 65px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -76,6 +75,21 @@ header .center .center-left {
   padding-right: 15px;
 }
 
+header .center .center-left a {
+  font-size: 13.5px;
+}
+
+header .center .center-left a i {
+  font-size: 12px;
+  font-weight: 0;
+  padding-left: 5px;
+}
+
+header .center .center-left a:hover,
+header .center .center-left a:hover i {
+  color: #30488f;
+}
+
 header .center .center-left h1 {
   line-height: 1.5em;
   font-size: 50px;
@@ -91,7 +105,7 @@ header .center .center-left .container-logins {
   align-items: center;
   justify-content: space-between;
   flex-flow: row wrap;
-  width: calc(100% - 25%);
+  width: 400px;
   height: 60px;
 }
 
@@ -132,6 +146,72 @@ header .center .center-right {
 header .center .center-right img {
   width: 100%;
   height: auto;
+}
+
+.main-orange-1 {
+  background-color: #ffe7d2;
+  border: 1px solid black;
+  min-height: 500px;
+}
+
+.main-orange-1 .boxes:first-child {
+  border-bottom: 1px solid #bdb5af;
+}
+
+.main-orange-1 .boxes {
+  width: 80%;
+  margin: 0 auto;
+  min-height: 500px;
+  padding: 65px;
+  text-align: center;
+}
+
+.main-orange-1 .boxes h1 {
+  font-size: 25px;
+}
+
+.main-orange-1 .boxes h1:last-child {
+  padding-top: 45px;
+}
+
+.main-orange-1 .boxes .top-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 140px;
+  max-width: 800px;
+  margin: 70px auto;
+}
+
+.main-orange-1 .boxes .top-section .box-top img {
+  width: 140px;
+  height: 95px;
+  margin: 0 75px;
+}
+
+.main-orange-1 .boxes .top-section .box-top p {
+  padding-top: 25px;
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+.main-orange-1 .boxes .top-section .box-top:last-child > img {
+  width: 60px;
+  height: 95px;
+}
+
+.main-orange-1 .boxes .bot-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 140px;
+  max-width: 800px;
+  margin: 70px auto;
+}
+
+.main-orange-1 .boxes .bot-section .box-bot > img {
+  width: 280px;
+  height: 286px;
 }
 
 * {

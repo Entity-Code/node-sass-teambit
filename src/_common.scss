@@ -7,6 +7,7 @@
     text-decoration: none;
     font-family: lato;
 }
+
 //display flex
 @mixin flex {
     display: flex;
@@ -19,8 +20,16 @@
     height: auto;
 }
 
+@mixin section-size{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 140px;
+    max-width: 800px;
+    margin: 70px auto;
+}
 
-//btn navbar-right
+//btn Sign in/up navbar-right
 @mixin btn-1{
     color: $blue;
     background-color: $white;
@@ -44,7 +53,6 @@
         i{color: white;}
     }
 }
-
 @mixin btn-2{
     color: $white;
     background-color: $blue;

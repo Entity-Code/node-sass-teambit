@@ -1,0 +1,44 @@
+.main-orange-1{
+    background-color: $orange;
+    border: 1px solid black;
+    min-height: 500px;
+
+    .boxes:first-child{border-bottom: 1px solid $lightgray;}
+    .boxes{
+        width: 80%;
+        margin: 0 auto;
+        min-height: 500px;
+        padding: 65px;
+        text-align: center;
+
+        h1{font-size: 25px;}
+        h1:last-child{padding-top: 45px;}
+        .top-section{
+            @include section-size;
+            .box-top{                             
+                img{
+                    width: 140px;
+                    height: 95px;
+                    margin: 0 75px;
+                }
+                p{
+                    padding-top: 25px;
+                    font-size: 18px;
+                    line-height: 1.5em;
+                }
+            }
+            .box-top:last-child > img{
+                width: 60px;
+                height: 95px;
+            }
+        }
+
+        .bot-section{
+            @include section-size;         
+            .box-bot > img{
+                width: 280px;
+                height: 286px;            
+            }
+        }
+    }
+}
