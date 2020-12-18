@@ -1,6 +1,5 @@
 .main-orange-1{
     background-color: $orange;
-    border: 1px solid black;
     min-height: 500px;
 
     .boxes:first-child{border-bottom: 1px solid $lightgray;}
@@ -12,7 +11,7 @@
         text-align: center;
 
         h1{font-size: 25px;}
-        h1:last-child{padding-top: 45px;}
+        h1:last-child{padding: 45px 0;}
         .top-section{
             @include section-size;
             .box-top{                             

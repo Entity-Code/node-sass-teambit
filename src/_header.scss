@@ -29,8 +29,8 @@ header{
         height: 500px;
         @include flex; 
         
-        .center-left{
-            width: 50%;
+        .center-left{ 
+            min-width: 560px;
             height: 350px;
             background-color: $white;
             padding-right: 15px;
