@@ -14,13 +14,15 @@ header{
             height: 50%;
 
             li{
+                position: relative;
                 font-size: 13.5px;
                 font-weight: bolder;
                 margin: 0 20px;
                 cursor: pointer;
                 &:hover{color: $blue;}           
-                a{@include btn-1;}
-            } 
+                a{@include btn-1;}               
+            }
+            @include drop-down;     
         }
     }
         

@@ -47,26 +47,27 @@
             @include flex;
             justify-content: center;
             margin-bottom: 25px;
+            span{color: $lightgray;}
             a{
                 @include btn-2;
                 margin: 0 12.5px;
+                &:hover{background-color: $darkblue;}
                 & > i{
                     margin:0; 
                     padding-right: 5px;
-                }
-            }
-            span{color: $lightgray;}          
-        }
-        a{
-            display: flex;
-            justify-content: center;
-            transition: all 0.25s;
-            &:hover, &:hover i{background-color: $darkblue;}
-            i{
-                margin-left: 5px;
-                font-size: 12.5px;
-                margin-top: 5.5px;
-            }
-        }
+                }              
+            }                     
+        }                   
     }
+    .content-2 > a{
+        display: flex;
+        justify-content: center;
+        transition: all 0.25s;   
+        &:hover, &:hover > i{color: $blue;}        
+        i{
+            margin-left: 5px;
+            font-size: 12.5px;
+            margin-top: 5.5px;
+        }
+    }   
 }
