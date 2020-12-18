@@ -1,0 +1,45 @@
+//general
+@mixin general {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: lato;
+}
+//display flex
+@mixin flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+//btn navbar-right
+@mixin btn-1{
+    color: $blue;
+    background-color: $white;
+    padding: 7.5px 12.5px;
+    border: 1px solid $blue;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    i{
+        font-size: 17.5px;
+        background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        -webkit-text-fill-color: transparent;
+    }
+    &:hover{
+        background-color: $blue;
+        color: white;
+        i{    
+            color: white;            
+        }
+    }
+}
+
+
+
