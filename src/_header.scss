@@ -64,7 +64,6 @@ header{
         .center-right{
             min-width: 375px;   
             max-width: 575px;  
-            min-height: 350px;
             img{@include resize;}  
         }
     }   

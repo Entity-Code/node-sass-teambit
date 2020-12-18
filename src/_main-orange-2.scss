@@ -1,5 +1,5 @@
 .main-orange-2{
-    border: 1px solid black;
+    border: 1px solid $orange;
     background-color: $orange;
     .content-2{
         margin: 65px auto;
@@ -61,7 +61,7 @@
             display: flex;
             justify-content: center;
             transition: all 0.25s;
-            &:hover, &:hover i{color: $darkblue;}
+            &:hover, &:hover i{background-color: $darkblue;}
             i{
                 margin-left: 5px;
                 font-size: 12.5px;

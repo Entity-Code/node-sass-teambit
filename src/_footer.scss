@@ -1,0 +1,50 @@
+footer{
+    background-color: $white;
+    min-height: 500px; 
+    .footer{
+        width: 85%;
+        //debug
+        min-height: 500px;
+        //debug
+        margin: 120px auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        //left
+        .left{
+            display: inline-block;
+            img{
+                width: 50px;margin-bottom: 19px;
+            }
+            p{
+                display: inline-block;
+                font-size: 19px;
+                font-weight: bold;
+                padding-left: 15px;
+                a{
+                    color: $blue;
+                    &:hover{text-decoration: underline;}
+                }               
+            }
+        } 
+
+        //right
+        nav{
+            h1{
+                font-size: 19px;
+                margin-bottom: 17.5px;
+            }
+            ul > li{
+                font-size: 15px;
+                margin: 14px 0;
+                a:hover, a:hover i{color: $blue;}
+                i{
+                    margin-left: 5px;
+                    font-size: 12.5px;
+                }
+            }
+        }
+
+
+    }
+}
