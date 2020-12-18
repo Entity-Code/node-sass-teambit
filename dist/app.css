@@ -24,7 +24,6 @@ header nav .navbar-right {
 header nav .navbar-right li {
   font-size: 13.5px;
   font-weight: bolder;
-  color: #58402c;
   margin: 0 20px;
   cursor: pointer;
 }
@@ -41,6 +40,7 @@ header nav .navbar-right li a {
   border-radius: 10px;
   font-weight: bold;
   font-size: 15px;
+  transition: all 0.25s;
 }
 
 header nav .navbar-right li a i {
@@ -64,7 +64,6 @@ header nav .navbar-right li a:hover i {
 header .center {
   width: 100%;
   height: 500px;
-  border: 1px solid black;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -73,15 +72,66 @@ header .center {
 header .center .center-left {
   width: 50%;
   height: 350px;
-  background-color: lightblue;
-  border: 1px solid black;
+  background-color: #ffffff;
+  padding-right: 15px;
+}
+
+header .center .center-left h1 {
+  line-height: 1.5em;
+  font-size: 50px;
+}
+
+header .center .center-left p {
+  font-size: 21px;
+  margin: 30px 0;
+}
+
+header .center .center-left .container-logins {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  width: calc(100% - 25%);
+  height: 60px;
+}
+
+header .center .center-left .container-logins a {
+  color: #ffffff;
+  background-color: #30488f;
+  padding: 7.5px 12.5px;
+  border: 1px solid #30488f;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  transition: all 0.25s;
+}
+
+header .center .center-left .container-logins a i {
+  font-size: 17.5px;
+  background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+header .center .center-left .container-logins a:hover {
+  background-color: #263972;
+}
+
+header .center .center-left .container-logins span {
+  color: #bdb5af;
 }
 
 header .center .center-right {
-  width: 50%;
-  background-color: red;
-  border: 1px solid black;
-  height: 350px;
+  min-width: 375px;
+  max-width: 575px;
+  min-height: 350px;
+}
+
+header .center .center-right img {
+  width: 100%;
+  height: auto;
 }
 
 * {
@@ -91,5 +141,6 @@ header .center .center-right {
   list-style-type: none;
   text-decoration: none;
   font-family: lato;
+  color: #58402c;
 }
 

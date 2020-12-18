@@ -3,15 +3,21 @@
 @import "common";
 
 @import "header";
+
 @import "main-orange-1";
+
 @import "main-white-1";
+
 @import "main-white-2";
+
 @import "main-orange-2";
+
 @import "footer";
 
 //regole generali
 *{
     @include general;
+    color: $brown;
 } 
 
 

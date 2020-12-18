@@ -13,6 +13,11 @@
     align-items: center;
     justify-content: space-between;
 }
+// resizing images
+@mixin resize{
+    width: 100%;
+    height: auto;
+}
 
 
 //btn navbar-right
@@ -24,6 +29,7 @@
     border-radius: 10px;
     font-weight: bold;
     font-size: 15px;
+    transition: all 0.25s;
     i{
         font-size: 17.5px;
         background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
@@ -35,10 +41,28 @@
     &:hover{
         background-color: $blue;
         color: white;
-        i{    
-            color: white;            
-        }
+        i{color: white;}
     }
+}
+
+@mixin btn-2{
+    color: $white;
+    background-color: $blue;
+    padding: 7.5px 12.5px;
+    border: 1px solid $blue;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: all 0.25s;
+    i{
+        font-size: 17.5px;
+        background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        -webkit-text-fill-color: transparent;
+    }
+    &:hover{background-color: $darkblue;}
 }
 
 
