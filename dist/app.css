@@ -115,7 +115,7 @@ header .center .center-left .container-logins a {
   padding: 7.5px 12.5px;
   border: 1px solid #30488f;
   border-radius: 10px;
-  font-weight: bold;
+  font-weight: lighter;
   font-size: 15px;
   transition: all 0.25s;
 }
@@ -289,6 +289,127 @@ header .center .center-right img {
 
 .main-white .four aside > img {
   height: 270px;
+}
+
+.main-orange-2 {
+  border: 1px solid black;
+  background-color: #ffe7d2;
+}
+
+.main-orange-2 .content-2 {
+  margin: 65px auto;
+  width: 700px;
+}
+
+.main-orange-2 .content-2 h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.main-orange-2 .content-2 .center {
+  max-width: 628px;
+  margin: 35px auto;
+  padding: 20px 20px 20px 40px;
+  border: 1px solid #bdb5af;
+  border-radius: 7px;
+  background: #fff;
+  position: relative;
+}
+
+.main-orange-2 .content-2 .center #mark {
+  width: 45px;
+  position: absolute;
+  top: -18px;
+  left: -5px;
+}
+
+.main-orange-2 .content-2 .center p {
+  line-height: 1.5em;
+  padding: 15px 0;
+}
+
+.main-orange-2 .content-2 .center .authors {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.main-orange-2 .content-2 .center .authors > img {
+  width: 38px;
+  height: 38px;
+  margin-right: 10px;
+}
+
+.main-orange-2 .content-2 .center .authors .description-authors {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.main-orange-2 .content-2 .center .authors .description-authors span:first-child {
+  color: #30488f;
+  font-size: 15px;
+}
+
+.main-orange-2 .content-2 .center .authors .description-authors span:last-child {
+  font-size: 12.5px;
+}
+
+.main-orange-2 .content-2 .container-logins {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.main-orange-2 .content-2 .container-logins a {
+  color: #ffffff;
+  background-color: #30488f;
+  padding: 7.5px 12.5px;
+  border: 1px solid #30488f;
+  border-radius: 10px;
+  font-weight: lighter;
+  font-size: 15px;
+  transition: all 0.25s;
+  margin: 0 12.5px;
+}
+
+.main-orange-2 .content-2 .container-logins a i {
+  font-size: 17.5px;
+  background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.main-orange-2 .content-2 .container-logins a:hover {
+  background-color: #263972;
+}
+
+.main-orange-2 .content-2 .container-logins a > i {
+  margin: 0;
+  padding-right: 5px;
+}
+
+.main-orange-2 .content-2 .container-logins span {
+  color: #bdb5af;
+}
+
+.main-orange-2 .content-2 a {
+  display: flex;
+  justify-content: center;
+  transition: all 0.25s;
+}
+
+.main-orange-2 .content-2 a:hover,
+.main-orange-2 .content-2 a:hover i {
+  color: #263972;
+}
+
+.main-orange-2 .content-2 a i {
+  margin-left: 5px;
+  font-size: 12.5px;
+  margin-top: 5.5px;
 }
 
 * {

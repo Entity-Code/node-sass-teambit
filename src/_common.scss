@@ -59,7 +59,7 @@
     padding: 7.5px 12.5px;
     border: 1px solid $blue;
     border-radius: 10px;
-    font-weight: bold;
+    font-weight: lighter;
     font-size: 15px;
     transition: all 0.25s;
     i{
@@ -71,6 +71,12 @@
         -webkit-text-fill-color: transparent;
     }
     &:hover{background-color: $darkblue;}
+}
+@mixin mark{
+    width: 45px;
+    position: absolute;
+    top: -18px;;
+    left: -5px;
 }
 
 
