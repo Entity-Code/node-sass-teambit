@@ -8,11 +8,14 @@ header{
         height: 75px;
         border-bottom: 1px solid $lightgray;
         @include flex;
-
+        img{
+            filter: none;
+            width: 170px;
+            height: 50px;           
+        }
         .navbar-right{
             @include flex;
             height: 50%;
-
             li{
                 position: relative;
                 font-size: 13.5px;
@@ -29,8 +32,7 @@ header{
     .center{
         width: 100%;
         height: 500px;
-        @include flex; 
-        
+        @include flex;       
         .center-left{ 
             min-width: 560px;
             height: 350px;
@@ -66,7 +68,10 @@ header{
         .center-right{
             min-width: 375px;   
             max-width: 575px;  
-            img{@include resize;}  
+            img{
+                @include resize;
+                
+            }  
         }
     }   
 }

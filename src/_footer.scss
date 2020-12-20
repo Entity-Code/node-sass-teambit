@@ -11,7 +11,9 @@ footer{
         .left{
             display: inline-block;
             img{
-                width: 50px;margin-bottom: 19px;
+                width: 50px;
+                margin-bottom: 19px;
+                filter: none;
             }
             p{
                 display: inline-block;

@@ -1,0 +1,122 @@
+.teambit{
+    min-width: 340px;
+    max-width: 420px;
+    min-height: 516px;
+    display: flex;
+    flex-flow: column;
+    border-radius: 10px;
+    position: relative;
+    position: fixed;
+    bottom: 100px;
+    right: 25px;
+    box-shadow: 0px 2px 3px rgba(0,0,0,0.7);
+    opacity: 0;
+    z-index: -1;
+    pointer-events: none;
+    transition: all 0.25s;
+    .messanger-top{
+        text-align: center;
+        height: 250px;
+        background-color: $blue;      
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        padding: 15px;
+        h1{
+            font-size: 18px;
+            color: $brown;
+            font-weight: normal;
+        }
+        .Alex{
+            margin: 10px auto;
+            img{
+                width: 50px;
+                height: 50px;
+                filter: none;
+            }
+            h2{
+                color: $brown;
+                font-size: 14px;
+                font-weight: normal;
+            }
+        }
+        p{
+            color: $brown;
+            font-size: 14px;
+            padding-bottom: 10px;
+            margin-bottom: 12.5px;
+            border-bottom: 1px solid $orange;
+        }
+        span{
+            font-size: 16.5px;
+            color: $brown;
+        }
+    }
+    .messanger-bot{
+        position: relative;
+        height: 280px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        background-color: $white;
+        overflow: visible;
+        padding: 17.5px;
+        .search-answers{
+            margin: 0 auto;
+            width: 90%;
+            height: 100px;
+            border: 1px solid $lightgray;
+            border-radius: 5px;
+            padding: 10px;
+            h1{
+                color: $darkblue;
+                font-size: 16.5px;
+                font-weight: normal;
+            }
+            input{
+                margin-top: 10px;
+                width: 90%;
+                height: 35px;
+                border-radius: 5px;
+                border: 1px solid $lightgray;
+                outline: none;
+                padding: 2.5px 15px;
+                font-size: 15px;
+                transition: all 0.25s;
+                color: lightgray;
+                &:focus{border: 1px solid $blue;}
+            }
+        }
+        #search{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            min-height: 60px;
+            max-height: 60px;
+            resize: none;
+            padding: 18px;
+            padding-right: 100px;
+            padding-left: 30px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            outline: none;
+            border: none;
+            background-color: #f1f3f7;
+            z-index: 1000px;
+        }
+        
+        .icons-chat{
+            display: flex;        
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            i{
+                padding: 0 10px;
+                font-size: 20px;
+                color: $lightgray;
+                cursor: pointer;
+                transition: all 0.25s;
+                &:hover{color: $blue;}
+            }       
+        }
+    }
+    
+}   

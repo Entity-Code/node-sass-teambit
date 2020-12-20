@@ -12,24 +12,21 @@
 
 @import "footer";
 
+@import "teambit-help";
+@import "help-center";
+
+
 //regole generali
 *{
     @include general;
     color: $brown;
 }
+body{background-color: $white};
 
-
-
-.teambit{
-    @include teambit-help;
-    
+img{
+    filter: sepia(100%) hue-rotate(190deg) saturate(500%);
+    border-radius: 10px;
 }
-
-.help-center{
-    
-    @include help-center;    
-}
-
 
 
 
